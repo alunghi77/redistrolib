@@ -1,0 +1,27 @@
+/* Styles Redistro Lib */
+body{background:#efefef;}
+.container{margin:0 auto;width:760px;background:#fff;height:800px;padding:10px;}
+.header,.navigation,#content,.footer{width:100%;float:left}
+.clear{clear:both;}
+.footer{float:right;border-top:1px solid #eee;padding-top:10px;margin-top:10px}
+.footer ul{list-style-type:none;}
+.footer ul li{display:inline;}
+#picture{background-position:center 25%;background-repeat:no-repeat;background-size:64px;float:left;margin-right:18px;width:64px;height:64px;overflow:hidden;}
+
+.fb-toolbar { background: #eee;padding:3px}
+.fb-toolbar h1 { font-size:1.2em; margin:0px; padding:0px}
+.fb-toolbar h1 small { margin:0px; font-size:1em;}
+/* Form */
+input[type="text"]{width:500px;padding:5px;font-size:1.2em;color:#000}
+input[type="submit"]{padding:10px;color:#000;font-size:1.2em;}
+
+/* Search Response Form */
+ul.search-response{background:#eee;list-style-type:none;padding:0px;margin:0px 0px 2px 0px;-moz-box-shadow:0px 9px 29px -2px #999;-webkit-box-shadow:0px 9px 29px -2px #999;box-shadow:0px 9px 29px -2px #999;}
+ul.search-response li{padding:10px;opacity:0.7;}
+
+/* Added Book Display */
+.added-book{width:600px;height:250px;background:#f3f3f3;margin-top:10px; display:none}
+.added-book .image{width:180px;float:left;padding:10px 10px 10px 0px;}
+.added-book .content{width:380px;float:left;padding:10px}
+.added-book .content h2{margin:0px}
+.added-book .content p{}
